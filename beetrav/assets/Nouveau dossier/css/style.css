@@ -1,0 +1,131 @@
+@font-face {
+    font-family: honey;
+    src: url(../font/Honey\ and\ Raspberries.ttf);
+  }
+*{
+    font-family: honey;
+    box-sizing: border-box;
+    color: #62472f;
+}
+.indup{
+    z-index: 900;
+}
+.inddown{
+    z-index:-100;
+}
+.pop{
+    position: absolute;
+    background-color: red;
+}
+html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fcc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 35px 35px 15px 15px;
+}
+input{
+    width: 65%;
+    height: 7vh;
+    border-radius: 4px;
+    background-color: #E87EA1;;
+    border: 0;
+    padding: 3%;
+    font-size: 1rem;
+}
+input:focus {
+    background-color: #FFE7AA;
+    border: 0px;
+    outline: none;
+    transition: background-color 0.3s;
+}
+form{
+    height: 90%;
+    background-color: #EFE6DD;
+}
+body{
+    background-color: #2D251E;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    max-height: 2160px;
+    min-width: 280px;
+    overflow: hidden;
+}
+header{
+    padding: 1% 3% 1% 3%;
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+}
+header > h1{
+    color: #F2AB1C;
+    font-family: honey;
+    font-weight: normal;
+    font-size: 5rem;
+    margin: 0;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+form button{
+    padding: 3%;
+    margin-top: 7%;
+    border: 1px blue;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #F2AB1C;
+    font-family: 'honey';
+    color: #62472f;
+    font-size: 2rem;
+}
+
+form button:hover{
+    font-size: 10rem;
+    transition: font-size 1s;
+}
+
+form > label{
+    font-size: 125%;
+    padding: 2%;
+}
+.hide{
+    display: none;
+}
+.shadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+footer{
+    position: relative;
+    padding: 1%;
+    background-color: #efe6dd;
+    width: 100%;
+    height: 10vh;
+    border-top: 5px solid #2d251e;
+    display: flex;
+    border-radius: 17px 17px 0px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* footer img{
+    width: 15%;
+    position: absolute;
+    opacity: 17%;
+} */
+footer p{
+    margin: 0;
+    font-size: 13px;
+}
+.modeacces{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
